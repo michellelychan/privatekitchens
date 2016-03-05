@@ -157,58 +157,7 @@
 /* amendments to pinterest cards */ 
 .cardcontent {
 	margin-top: -20px;
-}
-
-.p1 {
-	background-image: url("../images/person.jpg");
-}
-
-.p2 {
-	background-image: url("../images/profilepics/gillian.jpg");
-}
-
-.p3 {
-	background-image: url("../images/profilepics/hyemi.jpg");
-}
-
-.p4 {
-	background-image: url("../images/profilepics/julia.jpg");
-}
-
-.p5 {
-	background-image: url("../images/profilepics/me.jpg");
-}
-
-.p6 {
-	background-image: url("../images/profilepics/michelle.jpg");
-}
-
-.p7 {
-	background-image: url("../images/profilepics/person1.jpg");
-}
-
-.p8 {
-	background-image: url("../images/profilepics/person2.jpg");
-}
-
-.p9 {
-	background-image: url("../images/profilepics/person3.jpg");
-}
-
-.p10 {
-	background-image: url("../images/profilepics/person4.jpg");
-}
-
-.p11 {
-	background-image: url("../images/profilepics/person5.jpg");
-}
-
-.p12 {
-	background-image: url("../images/profilepics/person6.jpg");
-}
-
-.p13 {
-	background-image: url("../images/profilepics/person7.jpg");
+	padding-left: 0;
 }
 
 .image {

@@ -55,7 +55,6 @@ body {
     background-repeat: none;
     width: 100%;
     background-position: fixed center;
-    height: 100%;
     z-index: 1; 
 }
 
@@ -71,7 +70,7 @@ body {
 }
 
 .input-group {
-  margin-top: 10%;
+  margin-top: 0;
   margin-right: auto;
   margin-left: auto;
   width: 50%;

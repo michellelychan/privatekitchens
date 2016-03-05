@@ -249,6 +249,8 @@ margin-bottom: 5px;
 
 .restaurant-info {
 	margin-bottom: 50px;
+	width: 100%;
+	display: block;
 }
 
 .room-img {

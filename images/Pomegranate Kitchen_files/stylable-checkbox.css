@@ -1,0 +1,32 @@
+.pseudo-checkbox {
+    border: 1px solid #a25051;
+    padding-left: 0;
+    width: 19px;
+    height: 12px;
+    border-radius: 1px;
+    margin-bottom: -2px;
+    cursor: pointer;
+}
+.pseudo-checkbox span {
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 8px;
+    height: 18px;
+    border-bottom: 3px solid #C02025;
+    border-right: 3px solid #C02025;
+    left: 6px;
+    position: relative;
+    bottom: 8px;
+    display: block;
+    opacity: 0;
+}
+.pseudo-checkbox.checked span{
+     opacity:1;
+}
+
+.pseudo-checkbox:hover span{
+     opacity:1;
+}

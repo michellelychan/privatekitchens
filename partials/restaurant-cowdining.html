@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Title of the document</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="../css/dashboard.css">
+<link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+    	$(function(){
+   			 $('.star').on('click',function(){
+   			 	console.log("this happened");
+        		$(this).toggleClass('glyphicon-star-empty'); 
+        		$(this).toggleClass('glyphicon-star');
+    			});
+		});
+    </script> 
+
+
+	<div class ="bg-image-cowdining title">C.O.W. Dining</div> 
+	<div class ="container-fluid">
+			<ul class= "nav nav-tabs">
+				<li role = "presentation" class = "active">
+						<a class = "navtitle" href ="dashboard.html">Information</a> 
+				</li>
+				<li role = "presentation">
+						<a  class ="navtitle" href ="itinerary.html">Reservation</a> 
+				</li>
+			</ul>
+
+	</div> 
+		
+	<div id="wrapper">
+	
+	<div class="restaurant-info">
+		<div class="col-md-4">
+			<img class="room-img" src="/Images/cowdining-room.jpg"></img>
+		</div>
+		<div class="col-md-6">
+			<div class="restaurant-title">C.O.W. Dining </div>
+			<div>Map Shop F, 2/F Everest Industrial centre, 396 Kwun Tong Road, Kwun Tong</div>
+			<div>觀塘觀塘道396號毅力工業中心2樓F室</div>
+			<div>3565 6814</div>
+			<div>Italian  /  International  /  Private Kitchen </div>
+			<div>Mon-Sun: 12:00-16:00; 19:00-23:00 </div>
+			<div>$201-$400</div>
+			<div>-----</div>
+			<button type="button" class="btn btn-primary btn-lg">Reserve</button>
+		</div> 
+	</div>
+
+
+	<div id="map"></div>
+    
+  	
+
+
+	<div id="columns">
+		
+
+		<div class="pin">
+			<div class="star glyphicon glyphicon-star-empty"></div>
+			<img src="../Images/cowdining.jpg" />
+			<div class ="container-fluid cardcontent">
+				<div class = "description">
+					<div class ="location">Pan Fried US Berkshire Kurobuta Pork</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="pin">
+			<div class="star glyphicon glyphicon-star-empty"></div>
+			<img src="../Images/cowdining2.jpg" />
+			<div class ="container-fluid cardcontent">
+				<div class = "description">
+					<div class ="location">Dessert Trio</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="pin">
+			<div class="star glyphicon glyphicon-star-empty"></div>
+			<img src="../Images/cowdining3.jpg" />
+			<div class ="container-fluid cardcontent">
+				<div class = "description">
+					<div class ="location">Slow-cook NZ Beef Tenderloin with Porcine Mushroom Sauce</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="pin">
+			<div class="star glyphicon glyphicon-star-empty"></div>
+			<img src="../Images/cowdining4.jpg" />
+			<div class ="container-fluid cardcontent">
+				<div class = "description">
+					<div class ="location">Fried Dumplings</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="pin">
+			<div class="star glyphicon glyphicon-star-empty"></div>
+			<img src="../Images/cowdining.jpg" />
+			<div class ="container-fluid cardcontent">
+				<div class = "description">
+					<div class ="location">Pan Fried US Berkshire Kurobuta Pork</div>
+				</div>
+			</div>
+		</div>	
+	
+		
+	
+|
+	</div>
+
+
+	
+</div>
+	<script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 22.2850374, lng: 114.1483516},
+          zoom: 16
+        });
+      }
+    </script>
+  <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer></script>
+</body>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</html>

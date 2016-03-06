@@ -64,6 +64,12 @@ body {
     text-shadow: 1px 1px 1px #000000;
 }
 
+@media (max-width: 768px) {
+  .brand-heading {
+    font-size: 50px;
+  }
+}
+
 
 .center {
     text-align: center;
